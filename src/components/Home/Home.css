@@ -1,7 +1,33 @@
 
 .home{
+    padding-top: 100px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.pictureToVoteWrapper{
+    width: 50%;
+    position: relative;
+    /*border: 4px solid grey;*/
+    display: inline-block;
+}
+.pictureToVoteWrapper:hover{
+    width: 50%;
+    border: 4px solid grey;
+}
+.pictureToVotePicture{
     width: 100%;
     position: relative;
+    transition: all .5s;
+}
+.pictureToVotePicture:hover{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    max-width: 600px;
+    left: 0px;
+    z-index: 999;
 }
 
 
