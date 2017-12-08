@@ -1,4 +1,6 @@
 module.exports = {
+  pictureOne:{},
+  pictureTwo:{},
   pictures:[
     {
       id:0,
@@ -7,7 +9,7 @@ module.exports = {
       percentile: 0,
       wins: 0,
       losses: 0,
-      roundsVoted: 0,
+      roundsVoted: 11,
       tags:["portraits", "sunset"],
     },
     {
