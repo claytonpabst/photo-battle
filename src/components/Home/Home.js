@@ -43,6 +43,23 @@ class Home extends Component {
       pictureTwo:potentialPictures[i2]
     })
   };
+
+  updatePicturesInRound_and_getTwoNewPictures(winningPicture, losingPicture){
+    let winner;
+    let loser;
+    for(let i=0; i<this.state.pictures.length; i++){
+      if(winningPicture.id === this.state.pictures[i].id){
+        winner = this.state.pictures[i]
+      }
+    }
+    for(let i=0; i<this.state.pictures.length; i++){
+      if(losingPicture.id === this.state.pictures[i].id){
+        loser = this.state.pictures[i]
+      }
+    }
+    
+  }
+
   randomNumber(min, max){
     return Math.floor(Math.random()*(max-min+1)+min);
   }
