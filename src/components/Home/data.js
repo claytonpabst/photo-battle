@@ -241,7 +241,7 @@ module.exports = {
       wins: 0,
       losses: 0,
       roundsVoted: 0,
-      tags:["portraits", "sunset"],
+      tags:["all"],
     },
     {
       id:24,
